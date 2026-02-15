@@ -2,64 +2,107 @@
 <html>
 <head>
   <title>Hanna Liauchonak | Home</title>
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 
 <body>
 
-<div class="container">
-
-  <!-- HERO -->
-  <div class="hero">
-    <div class="hero-image">
-      <img src="IMG_2016.jpg" alt="Hanna Liauchonak">
-    </div>
-
-    <div class="hero-text">
-      <h1>Hi, I'm Hanna 👋</h1>
-      <p class="small"><strong>Industrial Engineering Student at UMass Amherst</strong></p>
-      <p class="small">
-        I build automation tools and use data + optimization to improve decisions and workflows.
-        I’m especially interested in systems engineering, analytics, and customer-facing technical solutions.
-      </p>
-
-      <a class="btn" href="projects.html">View all projects →</a>
+  <!-- NAV BAR -->
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand">Hanna Liauchonak</div>
+      <div>
+        <a href="index.html" class="active">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </div>
   </div>
 
-  <!-- PROJECTS PREVIEW -->
-  <h2>What I’m working on</h2>
-  <p class="small">Click a project to see details.</p>
+  <div class="container">
 
-  <div class="project-grid">
+    <!-- HERO (photo next to intro) -->
+    <div class="hero">
 
-    <a class="project-card" href="projects.html#excel-automation">
-      <h3>Excel Automation Quoting Tool</h3>
-      <p class="small">
-        VBA-driven quoting workflow with customer-ready outputs and reduced manual steps.
-      </p>
-      <span class="chip">Excel • VBA • Automation</span>
-    </a>
+      <div class="hero-image">
+        <img src="IMG_2016.jpg" alt="Hanna Liauchonak">
+      </div>
 
-    <a class="project-card" href="projects.html#numom2b">
-      <h3>NuMoM2b Maternal Health Research</h3>
-      <p class="small">
-        Missingness patterns + regression analysis connecting visit attendance to outcomes.
-      </p>
-      <span class="chip">R • Stats • Healthcare Ops</span>
-    </a>
+      <div class="hero-text">
+        <h1>Hi, I'm Hanna 👋</h1>
+        <p class="small"><strong>Industrial Engineering Student at UMass Amherst</strong></p>
+        <p class="small">
+          I build automation tools and use data + optimization to improve decisions and workflows.
+          I’m especially interested in systems engineering, analytics, and customer-facing technical solutions.
+        </p>
 
-    <a class="project-card" href="projects.html#expert-elicitation">
-      <h3>Expert Elicitation Modeling</h3>
-      <p class="small">
-        Fit distributions, score calibration (Brier), and aggregate expert judgments.
-      </p>
-      <span class="chip">Probability • Modeling</span>
-    </a>
+        <a class="btn" href="projects.html">View all projects →</a>
+      </div>
+
+    </div>
+
+    <!-- PRIMARY SKILLS (optional, keep if you want) -->
+    <h2>Primary Skills</h2>
+    <p class="small">Tools and areas I work with regularly.</p>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Data & Analytics</h3>
+        <ul>
+          <li>R (dplyr, ggplot2)</li>
+          <li>Python</li>
+          <li>Statistical Modeling</li>
+          <li>Logistic Regression</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Automation</h3>
+        <ul>
+          <li>Excel VBA</li>
+          <li>Workflow Design</li>
+          <li>Process Optimization</li>
+          <li>Power Automate</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Engineering & Systems</h3>
+        <ul>
+          <li>Operations Research</li>
+          <li>Optimization</li>
+          <li>Systems Thinking</li>
+          <li>Industrial Engineering</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PROJECTS PREVIEW -->
+    <h2>What I’m working on</h2>
+    <p class="small">Click a project to see details.</p>
+
+    <div class="project-grid">
+      <a class="project-card" href="projects.html#excel-automation">
+        <h3>Excel Automation Quoting Tool</h3>
+        <p class="small">VBA-driven quoting workflow with customer-ready outputs.</p>
+        <span class="chip">Excel • VBA • Automation</span>
+      </a>
+
+      <a class="project-card" href="projects.html#numom2b">
+        <h3>NuMoM2b Maternal Health Research</h3>
+        <p class="small">Missingness patterns + regression analysis connecting visits to outcomes.</p>
+        <span class="chip">R • Stats • Healthcare Ops</span>
+      </a>
+
+      <a class="project-card" href="projects.html#expert-elicitation">
+        <h3>Expert Elicitation Modeling</h3>
+        <p class="small">Fit distributions, score calibration, and aggregate expert judgments.</p>
+        <span class="chip">Probability • Modeling</span>
+      </a>
+    </div>
 
   </div>
-
-</div>
 
 </body>
 </html>
