@@ -218,3 +218,20 @@ body{
   animation: gradientMove 18s ease infinite !important;
 }
 
+
+.hero-image{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-width:260px;
+}
+
+.hero-image img{
+  width:260px;
+  height:260px;
+  object-fit:cover;
+  border-radius:50%;
+  border:3px solid #4CAF50;
+  box-shadow:0 0 30px rgba(76,175,80,0.4);
+}
+
