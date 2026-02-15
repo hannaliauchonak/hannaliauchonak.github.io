@@ -1,77 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hanna Liauchonak | Engineering Portfolio</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f6f9;
-            color: #333;
-        }
-
-        .container {
-            width: 80%;
-            margin: 80px auto;
-        }
-
-        h1 {
-            font-size: 48px;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            margin-top: 50px;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 10px;
-        }
-
-        .highlight {
-            color: #0056b3;
-        }
-
-        ul {
-            line-height: 1.8;
-        }
-
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-            margin-top: 20px;
-        }
-    </style>
+  <title>Hanna Liauchonak | Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="container">
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand">Hanna Liauchonak</div>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
 
-    <h1>Hi, I'm <span class="highlight">Hanna</span> 👋</h1>
-    <p><strong>Industrial Engineering Student at UMass Amherst</strong></p>
-    <p>I build automation tools, analyze healthcare data, and love optimization.</p>
-
-    <h2>Projects</h2>
+  <div class="container">
+    <h1>Hi, I'm Hanna 👋</h1>
+    <p class="small"><strong>Industrial Engineering Student at UMass Amherst</strong></p>
+    <p class="small">I build automation tools, analyze healthcare data, and love optimization.</p>
 
     <div class="card">
-        <h3>Excel Automation Pricebook Tool</h3>
-        <p>Developed a VBA-driven Excel tool to automate pricing workflows and reduce manual processing time.</p>
-    </div>
+      <h3>What I’m focused on right now</h3>
+      <ul>
+        <li>Excel + VBA automation tools (customer-facing workflows)</li>
+        <li>Healthcare operations research (NuMoM2b)</li>
+        <li>Data analysis + modeling (R / Python)</li>
+      </ul>
 
-    <div class="card">
-        <h3>NuMoM2b Maternal Health Research</h3>
-        <p>Performed logistic regression and missingness pattern analysis on large-scale healthcare datasets using R.</p>
+      <a class="btn" href="projects.html">See my projects →</a>
     </div>
-
-    <div class="card">
-        <h3>Expert Elicitation Modeling</h3>
-        <p>Modeled probability distributions (Beta, PERT, lognormal) and applied Brier scoring for calibration weighting.</p>
-    </div>
-
-</div>
+  </div>
 
 </body>
 </html>
+
 
