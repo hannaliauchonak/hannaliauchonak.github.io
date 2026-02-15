@@ -209,4 +209,12 @@ h2{
   max-width:600px;
 }
 
+html, body{
+  min-height: 100%;
+}
+
+body{
+  background-size: 400% 400% !important;
+  animation: gradientMove 18s ease infinite !important;
+}
 
