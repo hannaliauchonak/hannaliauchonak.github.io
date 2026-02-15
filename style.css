@@ -1,66 +1,102 @@
 body{
   font-family: Arial, sans-serif;
   margin:0;
-  background:#f4f6f9;
-  color:#222;
+  background:#0f1110;   /* dark background */
+  color:#e8e8e8;
 }
+
+/* NAVIGATION */
 .nav{
-  background:#ffffff;
-  border-bottom:1px solid #e6e6e6;
+  background:#141716;
+  border-bottom:1px solid #1f2523;
   position:sticky;
   top:0;
   z-index:10;
 }
+
 .nav-inner{
   width:80%;
   margin:0 auto;
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding:16px 0;
+  padding:18px 0;
 }
+
 .brand{
   font-weight:700;
-  letter-spacing:0.2px;
+  letter-spacing:1px;
+  color:#4CAF50; /* green accent */
 }
+
 .nav a{
   text-decoration:none;
-  color:#222;
-  margin-left:18px;
+  color:#cfcfcf;
+  margin-left:22px;
   font-weight:600;
+  transition:0.2s ease;
 }
+
 .nav a:hover{
-  text-decoration:underline;
+  color:#4CAF50;
 }
+
+.nav a.active{
+  color:#4CAF50;
+  border-bottom:2px solid #4CAF50;
+  padding-bottom:4px;
+}
+
+/* CONTENT */
 .container{
   width:80%;
-  margin:60px auto;
+  margin:80px auto;
 }
-h1{font-size:44px; margin:0 0 10px;}
-h2{margin-top:50px; border-bottom:2px solid #ddd; padding-bottom:10px;}
+
+h1{
+  font-size:48px;
+  margin-bottom:10px;
+}
+
+h2{
+  margin-top:50px;
+  border-bottom:1px solid #2c2f2e;
+  padding-bottom:10px;
+}
+
 .card{
-  background:#fff;
-  padding:20px;
-  border-radius:12px;
-  box-shadow:0 4px 12px rgba(0,0,0,0.08);
-  margin-top:18px;
+  background:#181c1a;
+  padding:24px;
+  border-radius:14px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.4);
+  margin-top:24px;
+  transition:0.3s ease;
 }
+
+.card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 8px 25px rgba(76,175,80,0.25);
+}
+
+.small{
+  color:#b5b5b5;
+  line-height:1.7;
+}
+
+/* BUTTON */
 .btn{
   display:inline-block;
-  margin-top:14px;
-  padding:10px 14px;
-  border-radius:10px;
-  background:#0056b3;
-  color:white;
+  margin-top:16px;
+  padding:10px 16px;
+  border-radius:12px;
+  background:#4CAF50;
+  color:#0f1110;
   text-decoration:none;
   font-weight:700;
+  transition:0.2s ease;
 }
-.btn:hover{opacity:0.9;}
-.small{color:#555; line-height:1.7;}
 
-.nav a.active {
-  color: #0056b3;
-  border-bottom: 3px solid #0056b3;
-  padding-bottom: 4px;
+.btn:hover{
+  background:#66d26f;
 }
 
