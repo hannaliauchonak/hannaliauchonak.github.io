@@ -57,3 +57,10 @@ h2{margin-top:50px; border-bottom:2px solid #ddd; padding-bottom:10px;}
 }
 .btn:hover{opacity:0.9;}
 .small{color:#555; line-height:1.7;}
+
+.nav a.active {
+  color: #0056b3;
+  border-bottom: 3px solid #0056b3;
+  padding-bottom: 4px;
+}
+
