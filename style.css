@@ -1,3 +1,7 @@
+/* TEST: if you see hot pink, CSS is loading */
+body { background: hotpink !important; }
+
+
 body{
   font-family: Arial, sans-serif;
   margin:0;
