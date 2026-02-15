@@ -1,9 +1,19 @@
 body{
   font-family: Arial, sans-serif;
   margin:0;
-  background:#0f1110;   /* dark background */
   color:#e8e8e8;
+
+  background: linear-gradient(
+    -45deg,
+    #0f1110,
+    #0f1a14,
+    #13201a,
+    #0f1110
+  );
+  background-size: 400% 400%;
+  animation: gradientMove 18s ease infinite;
 }
+
 
 /* NAVIGATION */
 .nav{
@@ -98,5 +108,17 @@ h2{
 
 .btn:hover{
   background:#66d26f;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
