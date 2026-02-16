@@ -300,3 +300,70 @@ body{
   }
 }
 
+
+/* Skills Layout */
+.skills-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:22px;
+  margin-top:20px;
+}
+
+.skill-card{
+  background:rgba(24, 28, 26, 0.7);
+  padding:26px;
+  border-radius:16px;
+  border:1px solid rgba(76,175,80,0.20);
+  box-shadow:0 8px 26px rgba(0,0,0,0.35);
+  transition:0.25s ease;
+}
+
+.skill-card:hover{
+  transform:translateY(-4px);
+  border-color:rgba(76,175,80,0.55);
+  box-shadow:0 14px 34px rgba(76,175,80,0.16);
+}
+
+.skill-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:14px;
+}
+
+/* The interactive chips */
+.tag{
+  display:inline-block;
+  padding:9px 14px;
+  border-radius:999px;
+  font-size:14px;
+  font-weight:700;
+  cursor:default;
+
+  background:rgba(76,175,80,0.12);
+  border:1px solid rgba(76,175,80,0.35);
+  color:#d9f3dc;
+
+  transition:0.18s ease;
+  transform:translateY(0);
+}
+
+.tag:hover{
+  background:rgba(76,175,80,0.28);
+  border-color:#4CAF50;
+  box-shadow:0 10px 22px rgba(76,175,80,0.18);
+  transform:translateY(-2px);
+}
+
+/* Nice click/tap feel */
+.tag:active{
+  transform:translateY(0);
+  box-shadow:none;
+}
+
+/* Responsive */
+@media(max-width: 1000px){
+  .skills-grid{ grid-template-columns: 1fr; }
+}
+
+
