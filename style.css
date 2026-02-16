@@ -367,3 +367,35 @@ body{
 }
 
 
+
+.tag{
+  display:inline-block;
+  padding:10px 16px;
+  border-radius:999px;
+  font-size:14px;
+  font-weight:700;
+  text-decoration:none;
+
+  background:rgba(76,175,80,0.12);
+  border:1px solid rgba(76,175,80,0.35);
+  color:#d9f3dc;
+
+  transition:all 0.2s ease;
+  transform:translateY(0);
+}
+
+.tag:hover{
+  background:#4CAF50;
+  color:#000;
+  border-color:#4CAF50;
+  box-shadow:0 12px 26px rgba(76,175,80,0.3);
+  transform:translateY(-3px);
+}
+
+.tag:active{
+  transform:translateY(0);
+  box-shadow:none;
+}
+
+
+
