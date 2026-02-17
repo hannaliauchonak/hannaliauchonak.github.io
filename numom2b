@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NuMoM2b Maternal Health Research | Hanna Liauchonak</title>
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+
+<body>
+
+  <!-- NAV BAR -->
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand">Hanna Liauchonak</div>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <h1>NuMoM2b Maternal Health Research</h1>
+    <p class="small">
+      Analyzing prenatal visit patterns and missingness to understand associations with pregnancy outcomes.
+    </p>
+
+    <div class="skills-grid" style="margin-top:30px;">
+      <div class="skill-card">
+        <h3>Focus</h3>
+        <p class="small">
+          Identify patterns of visit attendance and missingness, and quantify how demographics and SDOH relate to those patterns.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Methods</h3>
+        <p class="small">
+          Logistic regression, ANOVA, chi-square tests, and visual summaries to connect missingness categories to outcomes.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Outcome</h3>
+        <p class="small">
+          Cleaner, explainable missingness groupings and statistical evidence relating attendance patterns to key pregnancy outcomes.
+        </p>
+      </div>
+    </div>
+
+    <h2 class="section-title">What I Worked On</h2>
+    <div class="skill-card">
+      <ul>
+        <li>Created missingness categories from visit-level data</li>
+        <li>Built regression models for outcomes (e.g., preeclampsia, SGA, preterm birth)</li>
+        <li>Tested relationships with education, insurance, poverty, and composite SDOH metrics</li>
+        <li>Built visualizations and tables to support manuscript-ready results</li>
+      </ul>
+    </div>
+
+    <h2 class="section-title">Tools Used</h2>
+    <div class="skill-tags">
+      <span class="tag">R</span>
+      <span class="tag">Statistics</span>
+      <span class="tag">Logistic Regression</span>
+      <span class="tag">Data Wrangling</span>
+      <span class="tag">Visualization</span>
+    </div>
+
+    <br><br>
+    <a class="btn" href="projects.html">← Back to Projects</a>
+
+  </div>
+
+</body>
+</html>
